@@ -1,3 +1,4 @@
+// script.js
 // Add IDs to sections for TOC navigation
 document.querySelectorAll(".content-section h2").forEach((heading, index) => {
   const id = heading.textContent.toLowerCase().replace(/\s+/g, "-");
